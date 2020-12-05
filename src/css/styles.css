@@ -1,0 +1,30 @@
+body{
+    max-width: 1400px;
+    background-color: #ffede0;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.item-gallery{
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    list-style: none;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+}
+
+.stats-item {
+    display: flex;
+    align-items: center;
+}
+
